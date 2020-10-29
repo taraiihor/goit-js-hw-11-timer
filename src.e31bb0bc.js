@@ -197,7 +197,7 @@ var CountdownTimer = /*#__PURE__*/function () {
 
 new CountdownTimer({
   selector: '#timer-1',
-  targetDate: new Date('Jul 17, 2021')
+  targetDate: new Date('December 17, 2020')
 });
 },{}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -227,7 +227,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65137" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49816" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
